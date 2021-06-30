@@ -120,20 +120,32 @@ body {
   border: unset;
   background: #f2f2f2;
 }
-.container section div button:hover {
-  background: #bfbfbf;
-}
 .container section div .btn-sedans {
   color: #e38826;
   font-family: "Lexend Deca", sans-serif;
+}
+.container section div .btn-sedans:hover {
+  background: #e38826;
+  border: 2px solid white;
+  color: white;
 }
 .container section div .btn-suvs {
   color: #006970;
   font-family: "Lexend Deca", sans-serif;
 }
+.container section div .btn-suvs:hover {
+  background: #006970;
+  border: 2px solid white;
+  color: white;
+}
 .container section div .btn-luxury {
   color: #004241;
   font-family: "Lexend Deca", sans-serif;
+}
+.container section div .btn-luxury:hover {
+  background: #004241;
+  border: 2px solid white;
+  color: white;
 }
 .container .sedans {
   background: #e38826;

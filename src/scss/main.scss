@@ -46,22 +46,36 @@ body {
         border-radius: 50px;
         border: unset;
         background: $bg-button;
-
-        &:hover {
-          background: $bg-button-hover;
-        }
       }
       .btn-sedans {
         color: $bg-sedan;
         font-family: $paragraph-font;
+
+        &:hover {
+          background: $bg-button-hover-sedan;
+          border: 2px solid white;
+          color: white;
+        }
       }
       .btn-suvs {
         color: $bg-suv;
         font-family: $paragraph-font;
+
+        &:hover {
+          background: $bg-button-hover-suv;
+          border: 2px solid white;
+          color: white;
+        }
       }
       .btn-luxury {
         color: $bg-luxury;
         font-family: $paragraph-font;
+
+        &:hover {
+          background: $bg-button-hover-luxury;
+          border: 2px solid white;
+          color: white;
+        }
       }
       
     }
