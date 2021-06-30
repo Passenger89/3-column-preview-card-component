@@ -26,18 +26,20 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- SASS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project reinforced my knowledge of positioning using grid and flexbox. In addition, I learned the basics of sass architecture and the use of the @use and @forward rules.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Kevin Powell](https://www.youtube.com/watch?v=CR-a8upNjJ0) - This video from Kevin helped me with partials and with moving from using the deprecated @import to using @use and @forward. furthermore, I learned more about the sass architecture and using @forward to grab variables and spit them out from a single index.scss file. I really liked this pattern and will use it going forward.
+
+- [Kevin Powell](https://www.youtube.com/watch?v=wYWf2m_yzBQ&t=0s) - This is another video from Kevin that helped with the setting up and installation of Sass along with Parcel bundler which requires zero configuration.
 
 ## Author
 
