@@ -15,14 +15,14 @@ body {
   border-radius: 10px;
   overflow: auto;
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 580px) {
     flex-direction: row;    
   }
 
   section {
     display: flex;
     justify-content: center;
-    min-height: 30rem;
+    min-height: 35rem;
 
     div {
       width: 80%;
@@ -37,12 +37,13 @@ body {
       h1 {
         font-family: $heading-font;
         color: $heading-clr;
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
       p {
         font-family: $paragraph-font;
         color: $paragraph-clr;
         max-width: 20rem;
+        margin-top: -50px;
       }
       button {
         width: 10rem;
